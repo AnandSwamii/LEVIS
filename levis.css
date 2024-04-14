@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main{
+    box-shadow: 1.5px 1.5px 10px gray;
+    width: 250px;
+    height: 580px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.img img{
+    padding: 20px;
+    width: 250px;
+    align-items: center;
+    margin: auto;
+    
+}
+.Brand{
+    display: flex; 
+    padding: 10px;
+}
+.name h1{
+    font-size: 15px;
+}
+.name p{
+    font-size: 10px;
+}
+.mrp{
+    margin: 0px 5px 0px 70px;
+    font-weight: 700;
+    
+}
+.size h1{
+font-size: 20px;
+margin: 0px 0px 0px 10px;
+}
+.size p{
+    margin: 0px 0px 0px 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.size h2{
+    margin: 0px 0px 0px 10px;
+    font-size: 20px;
+}
+span{
+    background-color: rgb(41, 28, 211);
+}
+.all{
+    display: flex;
+    margin: 10px 0px;
+}
+.color1{
+    background-color: aqua;
+    height: 21px;
+    width: 21px;
+    margin: 10px 15px;
+}
+.color2{
+    background-color: black;
+    height: 21px;
+    width: 21px;
+    margin: 10px 15px;
+}
+.color3{
+    background-color:purple;
+    height: 21px;
+    width: 21px;
+    margin: 10px 15px;
+}
+.color4{
+    background-color: orangered;
+    height: 21px;
+    width: 21px;
+    margin: 10px 15px;
+}
+.button a{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 40px 40px ;
+    padding: 8px 40px;
+
+}
