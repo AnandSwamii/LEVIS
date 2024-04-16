@@ -7,10 +7,12 @@
 .main{
     box-shadow: 1.5px 1.5px 10px gray;
     width: 250px;
-    height: 580px;
+    height: 380px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    position: relative;
+    /* padding: 30px; */
 }
 .img img{
     padding: 20px;
@@ -34,7 +36,7 @@
     font-weight: 700;
     
 }
-.size h1{
+.size h2{
 font-size: 20px;
 margin: 0px 0px 0px 10px;
 }
@@ -43,7 +45,7 @@ margin: 0px 0px 0px 10px;
     font-size: 15px;
     font-weight: 500;
 }
-.size h2{
+.size h3{
     margin: 0px 0px 0px 10px;
     font-size: 20px;
 }
@@ -54,36 +56,43 @@ span{
     display: flex;
     margin: 10px 0px;
 }
-.color1{
+.color{
+    height: 21px;
+    width: 21px;
+    margin: 10px 15px;
+}
+.one{
     background-color: aqua;
-    height: 21px;
-    width: 21px;
-    margin: 10px 15px;
 }
-.color2{
+.two{
     background-color: black;
-    height: 21px;
-    width: 21px;
-    margin: 10px 15px;
+    
 }
-.color3{
+.three{
     background-color:purple;
-    height: 21px;
-    width: 21px;
-    margin: 10px 15px;
+    
 }
-.color4{
+.four{
     background-color: orangered;
-    height: 21px;
-    width: 21px;
-    margin: 10px 15px;
+    
 }
 .button a{
     color: white;
     background-color: black;
     text-decoration: none;
     border-radius: 8px;
-    margin: 40px 40px ;
+    margin: 0px 40px ;
     padding: 8px 40px;
 
+}
+.block{
+    opacity: 0;
+    position: absolute;
+    bottom: 5px;
+    background-color: white;
+}
+.block:hover {
+    opacity: 1;
+    transform: translate(0px ,-50px);
+    transition: 1s ease;
 }
