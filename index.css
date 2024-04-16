@@ -52,7 +52,9 @@ margin: 0px 0px 0px 10px;
 }
 
 span{
-    background-color: rgb(41, 28, 211);
+    background-color: blue;
+    padding: 0px 5px;
+    color: white;
 }
 .all{
     display: flex;
@@ -98,7 +100,7 @@ button
     background-color: white;
     transition: .5s  ease-in-out ;
     bottom: -160px;
-    height: ;
+    
     
 }
 .main:hover .block
